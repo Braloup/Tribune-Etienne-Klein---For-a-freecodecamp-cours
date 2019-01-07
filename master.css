@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@import url('https://fonts.googleapis.com/css?family=Acme');
+
+html {
+  background-color: #F5F5DC;
+}
+
+header {
+  text-align: center;
+  background-color: #FFEBCD;
+  margin: 10px 15px 10px 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 15px
+}
+
+#title {
+  font-family: 'Acme', sans-serif;
+}
+
+header h2, h3 {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1.1em;
+}
+
+#img-div {
+  background-color: #DEB887;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+@media screen and (min-width: 100px) and (max-width: 540px) {
+  #image {
+    border-radius: 50%;
+    height: 75%;
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 540px) {
+  #image {
+    border-radius: 15px;
+    width: 45%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+}
+
+figcaption {
+  text-align: center;
+  font-family: 'Acme', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Acme', sans-serif;
+}
+
+p {
+  font-family: 'Source Code Pro', monospace;
+}
+
+#tribute-info {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FFEBCD;
+  margin: 10px 15px 10px 15px;
+}
+
+@media screen and (min-width: 900px) {
+  p {
+    text-align: left;
+  }
+
+  article {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-width: 100px) and (max-width: 900px) {
+  article {
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
+}
+
+footer {
+  background-color: #DEB887;
+  height: 80px;
+  width: 100%;
+}
+
+footer a {
+  text-decoration: none;
+  color: #DC143C;
+  position: relative;
+  left: 30px;
+  top: 10px;
+}
